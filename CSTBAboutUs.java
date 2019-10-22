@@ -71,6 +71,7 @@ public class CSTBAboutUs {
 	    String captcha = ip.next();
 		
 	    driver.findElement(By.xpath("//input[@name = 'captcha-180']")).sendKeys(captcha); 
+	    // swarna, just to make myself clear, how do we know if this function fails or not? I don't have any other suggestions' except formatting and removing commented lines.
 	    
 	    ip.close();
 	}
